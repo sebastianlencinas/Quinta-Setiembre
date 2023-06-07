@@ -1,0 +1,146 @@
+<section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+	  
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+            <h2>Contacto</h2>
+            <p>No dudes en consultarnos!</p>
+          </div>
+        </div>
+		
+        <div class="contact-form wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeIn;">
+          <div class="row">
+		  
+            <div class="col-sm-6">
+              <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                <div class="row  wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" id="myname" class="form-control" placeholder="Nombre" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" id="myemail" class="form-control" placeholder="Email" required="required">
+                    </div>
+                  </div>
+                </div>
+				
+				<!---->
+				
+				<div class="row  wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" id="tipoevento" name="tipoevento" class="form-control" placeholder="Tipo de Evento" required="required" list="listid">
+                    
+					<datalist id="listid">
+					<option value="Casamiento">
+					</option><option value="Cumpleaños de Quince">
+					</option><option value="Bautismo">
+					</option><option value="Cumpleaños">
+					</option><option value="Evento Corporativo">
+					</option><option value="Otros">
+					</option></datalist>
+					
+					</div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" id="conociste" name="conociste" class="form-control" placeholder="Como nos conociste?" required="required" list="list2">
+					  <datalist id="list2">
+					<option value="Facebook">
+					</option><option value="Mercadolibre.com">
+					</option><option value="Casamientosonline.com">
+					</option><option value="Casamientos.com">
+					</option><option value="Mercadofiesta.com">
+					</option><option value="Google.com">					
+					</option><option value="Olx.com">
+					</option><option value="Alamaula.com">
+					</option><option value="Recomendación">
+					</option><option value="Otros">
+					</option></datalist>
+                    </div>
+                  </div>
+                </div>
+				
+				
+				<!---->
+				<div class="row wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+				 <div class="col-sm-6">
+                <div class="form-group">
+                  <input type="text" name="cantidad" id="asunto" class="form-control" placeholder="Cantidad de invitados" required="required">
+                </div>
+				</div>
+				
+				 <div class="col-sm-6">
+                <div class="form-group">
+                  <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Número de teléfono" required="required">
+                </div>
+				</div>
+				
+				
+				</div>
+                <div class="form-group">
+                  <textarea name="message" id="mymessage" class="form-control" rows="4" placeholder="Tu Mensaje" required="required"></textarea>
+                </div>                        
+                <div class="form-group">
+                  <button type="submit" class="btn-submit" id="botonmail">Enviar</button>
+                </div>
+				
+				 <input hidden="" type="text" name="fecha" id="fecha">
+				
+				
+          </form>
+            </div>
+            <div class="col-sm-6">
+			
+              <div class="contact-info wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+			  <div class="row  wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+					<div class="col-sm-6">						
+							<div class="form-group">
+								<div id="mydatepicker" class="hasDatepicker"><div class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="display: block;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="<Ant"><span class="ui-icon ui-icon-circle-triangle-w"><ant< span=""></ant<></span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Sig>"><span class="ui-icon ui-icon-circle-triangle-e">Sig&gt;</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">Junio</span>&nbsp;<span class="ui-datepicker-year">2023</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th scope="col"><span title="Lunes">Lu</span></th><th scope="col"><span title="Martes">Ma</span></th><th scope="col"><span title="Miércoles">Mi</span></th><th scope="col"><span title="Jueves">Ju</span></th><th scope="col"><span title="Viernes">Vi</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Sábado">Sá</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Domingo">Do</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">2</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">3</a></td><td class=" ui-datepicker-week-end ui-datepicker-days-cell-over  ui-datepicker-current-day ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default ui-state-highlight ui-state-active" href="#">4</a></td></tr><tr><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">5</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">6</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">7</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">9</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">10</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">11</a></td></tr><tr><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">12</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">13</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">14</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">16</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">17</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">18</a></td></tr><tr><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">19</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">20</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">21</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">23</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">24</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">25</a></td></tr><tr><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">26</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">27</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">28</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">29</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="5" data-year="2023"><a class="ui-state-default" href="#">30</a></td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div></div>
+							</div>						
+					</div>
+					
+				 </div>
+             
+			  
+			  <div class="row  wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+					<div class="col-sm-12">	
+					<div class="form-group">
+							<i class="fa fa-home" style="color:white;font-size: 2em;"></i>
+							<span>Aconquija 1152, Ministro Rivadavia, Burzaco, Buenos Aires</span>
+							
+					</div>		
+					
+					<div class="form-group">
+							<i class="fa fa-whatsapp" style="color:white;font-size: 2em;"></i>		
+							<span>1163661371</span>
+					</div>	
+					
+					<div class="form-group">
+							<i class="fa fa-facebook-square" style="color:white;font-size: 2em;"></i>	
+							<span>/QuintaSetiembre<span>
+					</span></span></div>
+					
+					<div class="form-group">
+							<i class="fa fa-envelope" style="color:white;font-size: 2em;"></i>	
+							<span>eventossetiembre@gmail.com<span>
+					</span></span></div>	
+
+					
+					</div>
+					
+				 </div>
+              </div> 
+			   </div> 
+					  
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+	
+            
+  </section>

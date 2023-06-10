@@ -217,3 +217,17 @@ h2{
 }
 
 /********SERVICIOS***********/
+
+.servicios{
+    background-color: #dce8f250;
+}
+
+.img-target-services{
+    padding: 3rem!important;
+}
+
+.img-target-services:hover{
+    filter: hue-rotate(360deg)!important;
+    background-color: #634fad!important;
+   
+}

@@ -14,12 +14,17 @@ html, body{
 
     bottom: 360px; 
 }
-
+*/
+.img-wedding{
+    overflow: hidden;
+    transition: 400ms;
+}
 .img-wedding:hover{
     filter: brightness(0.9);
+    scale: 120%;
 }
 
-.card-position{
+/*.card-position{
     position: relative;
     bottom: 160px
 }
@@ -148,8 +153,12 @@ h2{
        /* height: 10px!important;*/
     }
 
+}
 
-
+@media (min-width:480px) and (max-width:768px){
+    .img-wedding{
+        height: 130px !important;
+    }
 }
 
 /*//////////////NAV BAR/////////////////*/
@@ -204,19 +213,31 @@ h2{
 
 .parrafo-nosotros
 {   
-    margin-block-start: 3em;
-    margin-block-end: 10em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     color: #fff;
-    font-size: larger;
-    border: solid;
+   /* font-size: larger; */
+    text-justify: auto!important;
+    border: 3px solid #fafafa10;
+    border-radius: 1rem;
     -ms-text-justify: auto;
-   
     
 }
 
+.glass-efect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+
+}
+
 /********SERVICIOS***********/
+
+.card{
+    overflow: hidden;
+}
+
+.card-body{
+    
+}
 
 .servicios{
     background-color: #dce8f250;
@@ -224,10 +245,17 @@ h2{
 
 .img-target-services{
     padding: 3rem!important;
+    transition: 400ms;
+    box-shadow:5px 5px 5px #888888;
 }
 
 .img-target-services:hover{
-    filter: hue-rotate(360deg)!important;
+    
     background-color: #634fad!important;
+    scale:105%;
    
+}
+
+.card-text:hover{
+    scale:105%;
 }
